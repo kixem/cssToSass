@@ -1,0 +1,104 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+     margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font: inherit;
+   
+}
+
+body {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Orbitron', sans-serif;
+    background: #edeff0;
+    color: #576366;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+     @media only screen and (max-device-width : 1024px) and (orientation : landscape) {
+       background: transparent; 
+    }
+}
+
+a {
+    color: #16a085;
+    word-wrap: break-word;
+    -webkit-transition: color .1s ease-in, background .1s ease-in;
+    -moz-transition: color .1s ease-in, background .1s ease-in;
+    -ms-transition: color .1s ease-in, background .1s ease-in;
+    -o-transition: color .1s ease-in, background .1s ease-in;
+    transition: color .1s ease-in, background .1s ease-in;
+}
+
+a:hover, 
+a:focus,
+a:active {
+    color: #edeff0;
+    border-bottom: 1px solid #bb4665;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before, 
+a:after {
+    -webkit-transition: color .1s ease-in, background .1s ease-in;
+    -moz-transition: color .1s ease-in, background .1s ease-in;
+    -ms-transition: color .1s ease-in, background .1s ease-in;
+    -o-transition: color .1s ease-in, background .1s ease-in;
+    transition: color .1s ease-in, background .1s ease-in;
+}
+
+a:link,
+a:visited {
+    cursor: pointer;
+    text-decoration: none; 
+   -webkit-transition: color 0.5s, border-bottom 0.5s;
+    transition: color 0.5s, border-bottom 0.2s;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #384047;
+    font-weight: 500;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    width: 400px;
+    padding: 0;
+    margin: 0.5em auto;
+    border-top: 1px solid #edeff0;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    @media only screen and (max-width: 480px) {
+        width: 80%;
+    }
+}
+
+
+ul {
+    list-style: none;
+    font-size: 14px;
+}
+
+
+
+.centered {
+    text-align: center;
+}

@@ -1,0 +1,2232 @@
+/*SE   SECT-SERVICES1*/
+#services1 p,
+#services1 h3 {
+    font-family: Arial
+}
+
+#serviceswrap {
+    background: url(img/services2.png) no-repeat center center;
+    
+    margin-top: 0px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    
+    min-height: 470px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#serviceswrap h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 150px;
+}
+
+.imgser {
+    height: 20em;
+    width: 30em;
+    max-width: 90%; 
+}
+
+.imgser1 {
+    margin-top: 5em;
+}
+
+#call {
+    background: #2f2f2f;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+#call h3 {
+    color: #fff;
+}
+#call p {
+    color: #fff;
+}
+/*-----------------------------------------*/
+
+
+/*BLOG*/
+.mt {
+    padding-top: 25px;
+}
+
+
+
+/*STYLE1.CSS*/
+
+
+
+
+
+
+
+
+/***********************HEADER*******************************/
+
+
+/********************CONTENT*****************/
+
+/*SECTION1*/
+
+.content {
+    padding-top: 70px;
+}
+
+
+.hero {
+    box-sizing: border-box;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 30px;
+    z-index: 0;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0;
+    background-color: #bb4665;
+    height: 530px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.4);
+}
+
+.hero-text {
+    width: 800px;
+    height: 300px;
+    
+    padding: 0px;
+    margin: 0 auto;
+    border-radius: 30px;  
+}
+
+
+#h1 {
+    font-weight: 700;
+    font-size: 4em;
+    line-height: 160%;
+    margin-bottom: 15px;
+    padding: 0;
+    color: #edeff0;
+}
+
+#h3 {
+    color: #edeff0;
+     
+    /*border-bottom: 1px solid #edeff0;*/
+    
+}
+
+
+
+
+btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    background: #fff;
+   -webkit-transition: opacity 0.5s, border 0.5s ;
+   transition: opacity 0.5s, border 0.5s, ;
+    font-weight: bold;
+}
+
+
+
+
+.btn-ghost:link,
+.btn-ghost:visited {
+   color: #bb4665;
+    margin-right: 15px;
+    background: #fff;
+    opacity: 0.88;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.btn:hover,
+.btn:active {
+  
+    
+}
+
+
+
+.btn-ghost:hover,
+.btn-ghost:active {
+   border: 1px solid #edeff0;
+   opacity: 1;
+  box-sizing: padding-box; 
+}
+
+
+.hero-icons {
+  
+  margin: 4em auto;
+    padding-left: 3.5em;
+    
+}
+
+.hero-icons img {
+   float: left;
+    padding-right: 4em;
+        
+}
+
+.hero-icons img:last-child {
+    padding-right: 0;
+}
+
+
+.notebook {
+    padding-top: 0.5em;
+    
+}
+
+
+
+
+.notebook:hover,
+.ipod:hover,
+.monitor:hover,
+.phone:hover,
+.tablet:hover,
+.desktop:hover,
+.printer:hover,
+.tv:hover,
+.psp:hover {
+    -webkit-transform: rotate(2turn);
+    -webkit-transform-origin: 0% 50%;
+    -webkit-transition: 1s ease-in;
+}
+
+.desktop {
+    margin-top: -0.5em;
+}
+
+.psp {
+    margin-top: 1em;
+}
+
+.tv {
+    margin-top: -0.5em;
+}
+
+.camera {
+    /*
+     -webkit-mask: url(/img/icons/svg/camera-4.svg) no-repeat 50% 50%;
+  mask: url(/img/icons/svg/camera-4.svg) no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+   mask-size: cover; 
+    */
+    background: #bb4665;
+    width: 43px;
+  height: 30px;
+    margin-right: 4.5%;
+}
+
+
+/*SECTION INTEGRIDY*/
+#integridy {
+    background-color: #f6f9fa;
+    box-shadow: 0 1px 4px rgba(0,0,0,.4);
+}
+
+.inter {
+    padding: 6em;
+}
+
+#integridy img {
+    width: 80%;
+    margin-top: 4em;
+    opacity: 0.8;
+    -webkit-filter: hue-rotate(-10deg); /* Chrome, Safari, Opera */
+    filter: hue-rotate(-10deg);
+}
+
+#integridy h3 {
+    color: #384047;
+    font-size: 23px;
+    font-family: Lato;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+#integridy p {
+    color: #576366;
+    margin-bottom: 0;
+    font-size: 19px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+/***********************INFO STRIP*************************/
+
+
+
+
+.flex-boxes {
+    margin: 0em 0;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  align-items: stretch;
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center; }
+  .flex-boxes::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .flex-boxes::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .flex-boxes .flex-box {
+    align-self: stretch;
+    background: #f7f7f7;
+    border-radius: 7px;
+    box-shadow: inset 0 0 1px #DDD, 0 2px 4px #e6e6e6;
+    display: block;
+    flex: 1;
+    margin: 0.4em;
+    padding: 2em 2em 2em 2em;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out; }
+    .flex-boxes .flex-box:nth-child(1) {
+      border-top: 6px solid #bb4665; }
+      .flex-boxes .flex-box:nth-child(1):hover {
+        background-color: rgba(187, 70, 101, 0.1); }
+    .flex-boxes .flex-box:nth-child(2) {
+      border-top: 6px solid #bb4665; }
+      .flex-boxes .flex-box:nth-child(2):hover {
+        background-color: rgba(187, 70, 101, 0.1); }
+    .flex-boxes .flex-box:nth-child(3) {
+      border-top: 6px solid #bb4665; }
+      .flex-boxes .flex-box:nth-child(3):hover {
+        background-color: rgba(187, 70, 101, 0.1); }
+    .flex-boxes .flex-box:nth-child(4) {
+      border-top: 6px solid #bb4665; }
+      .flex-boxes .flex-box:nth-child(4):hover {
+        background-color: rgba(187, 70, 101, 0.1); }
+    .flex-boxes .flex-box:nth-child(5) {
+      border-top: 6px solid #bb4665; }
+      .flex-boxes .flex-box:nth-child(5):hover {
+        background-color: rgba(187, 70, 101, 0.1); }
+    .flex-boxes .flex-box:nth-child(6) {
+      border-top: 6px solid #bb4665; }
+      .flex-boxes .flex-box:nth-child(6):hover {
+        background-color: rgba(187, 70, 101, 0.1); }
+    .flex-boxes .flex-box img {
+      display: block;
+      height: 4em;
+      margin: 0 auto 1em; }
+    .flex-boxes .flex-box .fa-truck {
+      color: black;
+        opacity: 0.7;
+       margin-bottom: 0.25em;}
+    .flex-boxes .flex-box .flex-title {
+      color: rgba(51, 51, 51, 0.7);
+      font-size: 1.2em;
+      margin-bottom: 0.5em; }
+    .flex-boxes .flex-box p {
+      color: rgba(51, 51, 51, 0.6);
+      line-height: 1.3em;
+        font-size: 14px;
+      margin: auto; }
+
+
+
+
+
+
+#info-strip {
+    color: black;
+    
+   
+    background-color: white;
+    padding: 8em 0;
+    box-shadow: 10px 10px 4px rgba(7,7,7,.9);
+}
+
+
+
+
+
+
+
+
+/*SECTION SEMINARS*/
+#seminars {
+    background: #bb4665;
+    color: #edeff0;
+    font-family: sans-serif;
+    padding-top: 4em;
+    padding-bottom: 3em;
+    box-shadow: 0 1px 4px rgba(187, 70, 101, 0.72);
+}
+
+#seminars .centered {
+    text-align: right;
+}
+
+#seminars .mt {
+    padding: 3em;
+}
+
+.first{
+    padding-top: 1em;
+}
+
+.second{
+    padding-top: 1em;
+}
+
+.third{
+    padding-top: 3em;
+}
+
+
+.goleft {
+    text-align: left;
+}
+
+.goleft a{
+    color: #b2bbbd;
+    border-bottom: none;
+}
+
+/*SECTION TECHNOLOGY NEWS*/
+
+#technology-news {
+    background-color: #384047;
+    font-family: sans-serif;
+    color:  #fff;
+    height: 70em;
+    padding-top: 7em;  
+    box-shadow: 0 1px 4px rgba(0,0,0,.4);
+}
+
+#technology-news h1 {
+    color: #bb4665;
+}
+#technology-news .container {
+    width: 80%;
+    max-width: 1250px;
+    
+}
+.technology-news .col-lg-4 {
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+#technology-news .row {
+   padding-top: 2em;
+    
+}
+
+#technology-news .tech-same1 {
+   padding-top: 8em;
+}
+
+#technology-news .tech-same2 {
+   padding-top: 10em
+}
+
+#technology-news .tech-same3 {
+   padding-top: 4em;
+}
+
+.goright {
+    text-align: right;
+}
+
+#technology-news a {
+    color: #bb4665;
+    word-wrap: break-word;
+    -webkit-transition: color .1s ease-in, background .1s ease-in;
+    -moz-transition: color .1s ease-in, background .1s ease-in;
+    -ms-transition: color .1s ease-in, background .1s ease-in;
+    -o-transition: color .1s ease-in, background .1s ease-in;
+    transition: color .1s ease-in, background .1s ease-in;
+    border-bottom: none;
+}
+#technology-news a:hover,
+#technology-news a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+#technology-news a:before,
+#technology-news a:after {
+    -webkit-transition: color .1s ease-in, background .1s ease-in;
+    -moz-transition: color .1s ease-in, background .1s ease-in;
+    -ms-transition: color .1s ease-in, background .1s ease-in;
+    -o-transition: color .1s ease-in, background .1s ease-in;
+    transition: color .1s ease-in, background .1s ease-in;
+}
+
+/*ABOUT*/
+
+#about {
+    background-color: #edeff0;
+    box-shadow: 0 1px 4px rgba(0,0,0,.4);
+}
+.par {
+    margin-bottom: 10%;
+    margin-top: 15%;
+}
+
+.about h3 {
+    color: #384047;
+    font-size: 40px;
+    font-family: Lato;
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.about p {
+    color: #555555;
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.about img {
+    height: 40%;
+    margin: 45% 10% 0% 20%;
+    opacity: 0.8;
+    -webkit-filter: hue-rotate(80deg); /* Chrome, Safari, Opera */
+    filter: hue-rotate(90deg);
+}
+
+
+
+
+/*FOOTER*/
+
+
+
+
+/*queries.css*/
+
+/* big tablets to 1200px: fwidths smaller than the 1140px row */
+@media only screen and (max-width: 1199px) {
+    .smalldivs {
+            display: none;
+        }
+
+    
+.call li {
+    height: 27px;
+    text-align: left;
+    margin-bottom: 0;
+   margin-top: -10px;
+padding-left:  53px;
+    margin-left: 720px;
+    letter-spacing: 1.4;
+}
+   .hero-icons img {
+   
+    padding-right: 3em;
+        
+}
+    .hero-icons {
+  
+ 
+    padding-left: 5.5em;
+    
+}
+    
+ 
+    
+    #seminars {
+        padding-top: 3em;
+        padding-bottom: 2em;
+    }
+    #seminars .centered {
+        text-align:left; 
+        padding: 1em;
+        }
+    .goleft {
+        margin-bottom: 2em;
+    }
+    .third {
+        padding-top: 1em;
+    }
+    
+    
+    .imgser {
+        margin : 0 auto 3em auto;
+        
+    }   
+    
+    #call {
+        margin-top: 3em;
+    }
+    
+}
+/* small tablets to big tablets: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    
+/***********************HEADER*******************************/
+
+.smalldivs {
+            display: none;
+        }
+ 
+/*NAV*/
+
+.container {
+    position: relative;
+    max-width: 1030px;
+    margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+    content: " ";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+.header-nav {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100%;
+    border-bottom: 2px solid ##bb4665;
+}
+
+.header-nav-logo {
+    float: left;
+    position: relative;
+    width: 30px;
+    height: 100%;
+   
+}
+
+
+.header-nav-logo-link {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.header-nav-logo-icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    display: block;  
+    
+}
+
+.logo-icon {
+    height: 32px;
+    overflow: visible;
+    transform-origin: center center;
+    backface-visibility: visible;
+    text-align: center;
+    
+}
+
+nav .badge-ul {
+    padding-top: 7px;
+    margin-right: 3px;
+    
+}
+
+nav .badge-ul li {
+    list-style-type: none;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 0.8;
+    letter-spacing: 1.2;
+}
+
+.red {
+    color: #bb4665;
+}
+.white {
+    color: #edeff0;
+}
+
+.ul {
+    height: 40px;
+       margin-top: 3px;
+    padding-right: 10px;
+    border-right: 2px solid rgba(237, 239, 240, 0.55);
+    float: right;
+    position: absolute;
+    top: 6px; right: -7px
+}
+
+.neachal h4 {
+     float: right;
+    position: absolute;
+    top: 21px; right: -120px;
+    color: #edeff0;
+    font-size: 15px;
+    letter-spacing: 1.2;
+}
+    
+    .neachal2 h4 {
+     float: right;
+    position: absolute;
+    top: 21px; right: -120px;
+    color: #edeff0;
+    font-size: 15px;
+    letter-spacing: 1.2;
+}
+
+
+
+/*UL*/
+
+
+.header-nav-item {
+    line-height: 55px;
+    margin-left: 240px;
+    margin-right: 0px;
+}
+
+.header-nav-link {
+    display: block;
+    color: #b2bbbd;
+    float: left;
+    margin-right: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+
+
+
+
+.call {
+    padding-top: 0px;
+  
+    padding-left: 0px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #777777;
+    list-style: none;
+    padding-bottom: 0px;
+    margin-top: 16px;
+    letter-spacing: 0.8 ;
+    
+   
+}
+.call li {
+    height: 27px;
+    text-align: left;
+    margin-bottom: 0;
+   margin-top: -10px;
+padding-left:  53px;
+    margin-left: 720px;
+    letter-spacing: 1.4;
+}
+
+
+.call li a:link,
+.call li a:visited {
+    cursor: pointer;
+    text-decoration: none; 
+    color: #b2bbbd;
+   -webkit-transition: color 0.5s, border-bottom 0.5s;
+    transition: color 0.5s, border-bottom 0.2s;
+}
+
+.call li a:hover,
+.call li a:active {
+ color: #edeff0;
+ border-bottom: 1px solid #bb4665;
+}
+
+      .hero-icons img {
+   
+    padding-right: 4em;
+        
+}
+    .hero-icons {
+  
+ 
+    padding-left: 4.5em;
+        width: 50%;
+    
+}
+
+    
+}
+
+
+/* small tablets to big tablets: from 768px to 1023px */
+@media only screen and (max-width: 991px) {
+    /***********************HEADER*******************************/
+
+    .smalldivs {
+            display: none;
+        }
+
+    
+#header {
+    z-index: 100;
+    background: #3e474f;
+    transition: transform 0.3s 0s ease;
+    position: fixed;
+    top=0;
+    right: 0;
+    left: 0;
+    display: block;
+    height: 95px;
+    border-bottom: 2px solid ##bb4665;
+   box-shadow: 0 2px 4px rgba(0,0,0,.4);
+} 
+
+/*NAV*/
+
+.container {
+    position: relative;
+    max-width: 1030px;
+    margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+    content: " ";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+.header-nav {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100%;
+    border-bottom: 2px solid ##bb4665;
+}
+
+.header-nav-logo {
+    float: left;
+    position: relative;
+    width: 30px;
+    height: 100%;
+   
+}
+
+
+.header-nav-logo-link {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.header-nav-logo-icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    display: block;  
+    
+}
+
+.logo-icon {
+    height: 32px;
+    overflow: visible;
+    transform-origin: center center;
+    backface-visibility: visible;
+    text-align: center;
+}
+
+nav .badge-ul {
+    padding-top: 7px;
+    margin-right: 3px;
+    
+}
+
+nav .badge-ul li {
+    list-style-type: none;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 0.8;
+    letter-spacing: 1.2;
+}
+
+.red {
+    color: #bb4665;
+}
+.white {
+    color: #edeff0;
+}
+
+.ul {
+    height: 40px;
+       margin-top: 3px;
+    padding-right: 10px;
+    border-right: 2px solid rgba(237, 239, 240, 0.55);
+    float: right;
+    position: absolute;
+    top: 5px; right: -7px
+}
+
+.neachal h4 {
+     float: right;
+    position: absolute;
+    top: 21px; right: -105px;
+    color: #edeff0;
+    font-size: 12px;
+    letter-spacing: 1.2;
+}
+    
+    .neachal2 h4 {
+     float: right;
+    position: absolute;
+    top: 21px; right: -105px;
+    color: #edeff0;
+    font-size: 12px;
+    letter-spacing: 1.2;
+}
+
+.fa-laptop {
+    float: left;
+    margin-top: 17px;
+    margin-left: 5px;
+    color: #edeff0;
+}
+
+/*UL*/
+
+
+.header-nav-item {
+    line-height: 55px;
+    margin-left: 215px;
+    margin-right: 0px;
+    
+    
+}
+
+.header-nav-link {
+    display: block;
+    color: #b2bbbd;
+    float: left;
+    margin-right: 25px;
+    font-weight: 700;
+    font-size: 14px; 
+    display: inline-block;
+    margin-top: 2px;
+}
+
+
+.call {
+    
+    width: 100%;
+    background: #3e474f;
+    font-size: 12px;
+    font-weight: 700;
+    color: #777777;
+    list-style: none;
+   margin-top: 1%;
+     background: transparent;
+    letter-spacing: 0.8 ;
+     float: left;  
+    margin-left: -3%;
+    border-top: 1px solid #bb4665;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+    
+.call li {
+    height: 27px;
+    text-align: left;
+    margin-bottom: 0;
+   
+
+    margin-left: 30px;
+    letter-spacing: 1.4;
+    display: inline-block;
+}
+
+
+.call li a:link,
+.call li a:visited {
+    cursor: pointer;
+    text-decoration: none; 
+    color: #b2bbbd;
+   -webkit-transition: color 0.5s, border-bottom 0.5s;
+    transition: color 0.5s, border-bottom 0.2s;
+}
+
+.call li a:hover,
+.call li a:active {
+ color: #edeff0;
+ border-bottom: 1px solid #bb4665;
+}
+
+.call i {
+    color: #bb4665;
+}
+.fa-comment-o {
+    margin-left: -3px;
+}
+
+.fa-phone {
+    margin-left: -3px;
+}
+    
+    .phone,
+    .ipod,
+    .tv {
+        display: none;
+        
+    }
+    
+ 
+     .hero-icons {
+    padding-left: 2%;
+padding-right: 0;
+ margin-top: 4.5em;
+ width: 95%;
+         margin-left: 1.2%;   
+}
+        .hero-icons img {
+            padding: 0 1em;
+            margin-left: 2.5em;
+            margin-bottom: 1em;
+        }    
+     
+     
+
+     
+     
+     
+     .hero-text {
+    
+    height: 300px;
+    
+    padding: 0.5em 0 0 0;
+    margin: 0 auto;
+    border-radius: 30px;  
+}
+
+     .hero {
+         height: 530px;
+     }
+  
+    
+ 
+        #technology-news { 
+    padding-top: 4em;
+        position: relative;
+        height: 70em;
+        
+    }
+    
+    #technology-news h1 {
+        text-align: center;
+    }
+    #technology-news p {
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    
+    #technology-news p a{
+       
+        display: inline-block;
+        margin-bottom: 4em;
+    }
+    
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img { 
+    max-width: 60%;
+    margin-left: 5em;
+    }
+
+    #technology-news .tech-same1,
+    #technology-news .tech-same2, 
+    #technology-news .tech-same3 {
+        padding-top: 2em;
+    }
+
+    #technology-news .goright {
+        display: inline;
+        float: right;
+        position: absolute;
+        bottom: -3em;
+        right: 0em;
+        
+    }
+    
+    #integridy img {
+        margin-left: 4em;
+        margin-bottom: 3em;
+        margin-top: 0em;
+    }
+    
+   .about img { 
+       margin-top: 100%;
+       margin-left: 5%
+    }
+   
+  @media only screen and (max-width: 820px) {
+     .smalldivs {
+            display: none;
+        }
+  
+.hero-text {
+    width: 90%;
+    height: 300px;
+    
+    padding: 0px;
+    margin: 0 auto;
+    border-radius: 30px;  
+}
+
+
+#h1 {
+    font-weight: 700;
+    font-size: 3.5em;
+    line-height: 160%;
+    margin-bottom: 15px;
+    padding: 0;
+    color: #edeff0;
+}
+
+
+
+    
+}
+/* Phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    .smalldivs {
+            display: none;
+        }
+    
+   
+    
+    #header {
+    z-index: 100;
+    background: #3e474f;
+    transition: transform 0.3s 0s ease;
+    position: fixed;
+    top=0;
+    right: 0;
+    left: 0;
+    display: block;
+    height: 95px;
+    
+   box-shadow: 0 2px 4px rgba(0,0,0,.4);
+} 
+
+/*NAV*/
+
+.container {
+    position: relative;
+    max-width: 1030px;
+    margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+    content: " ";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+.header-nav {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100%;
+   
+}
+
+.header-nav-logo {
+    float: left;
+    position: relative;
+    width: 30px;
+    height: 100%;
+   
+}
+
+
+.header-nav-logo-link {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.header-nav-logo-icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    display: block;  
+    
+}
+
+.logo-icon {
+    height: 32px;
+    overflow: visible;
+    transform-origin: center center;
+    backface-visibility: visible;
+    text-align: center;
+}
+
+nav .badge-ul {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 3px;
+    margin-left: 2.1em;
+     border-bottom: 2px solid rgba(237, 239, 240, 0.55);
+}
+
+nav .badge-ul li {
+    list-style-type: none;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 0.8;
+    letter-spacing: 1.2;
+}
+
+.red {
+    color: #bb4665;
+}
+.white {
+    color: #edeff0;
+}
+
+
+    
+    
+
+.neachal h4 {
+     float: right;
+    position: absolute;
+    top: 67px; left: -6.5em;
+    color: #edeff0;
+    font-size: 12px;
+    letter-spacing: 1.2;
+}
+
+    .neachal2 h4 {
+     float: right;
+    position: absolute;
+    top: 67px; left: -6.5em;
+    color: #edeff0;
+    font-size: 12px;
+    letter-spacing: 1.2;
+}
+
+.fa-laptop {
+    float: left;
+    margin-top: 17px;
+    margin-left: 1.2em;
+    color: #edeff0;
+}
+
+/*UL*/
+
+
+.header-nav-item {
+    line-height: 55px;
+    margin-left: 150px;
+    margin-right: 0px;
+    
+    
+}
+
+.header-nav-link {
+    display: block;
+    color: #b2bbbd;
+    float: left;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 14px; 
+    display: inline-block;
+    margin-top: 3px;
+    
+}
+
+
+.call {
+    
+   
+    background: #3e474f;
+    font-size: 12px;
+    font-weight: 700;
+    color: #777777;
+    list-style: none;
+   margin-top: 1%;
+     
+    letter-spacing: 0.8 ;
+      
+    padding-right: 0;
+    margin-right: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 22%;
+    border: none;
+}
+
+    
+    
+.call li {
+    height: 27px;
+    text-align: left;
+    margin-bottom: 0;
+   float: left;
+    margin: 0px;
+    padding: 5px 20px 0 20px;
+    letter-spacing: 1;
+    border-top: 1px solid #bb4665;
+    
+}
+
+
+.call li a:link,
+.call li a:visited {
+    cursor: pointer;
+    text-decoration: none; 
+    color: #b2bbbd;
+   -webkit-transition: color 0.5s, border-bottom 0.5s;
+    transition: color 0.5s, border-bottom 0.2s;
+}
+
+.call li a:hover,
+.call li a:active {
+ color: #edeff0;
+ border-bottom: 1px solid #bb4665;
+}
+
+.call i {
+    color: #bb4665;
+}
+.fa-comment-o {
+    margin-left: -3px;
+}
+
+.fa-phone {
+    margin-left: -3px;
+}
+
+  
+
+
+
+
+
+
+  
+
+
+
+.square1 {
+    margin-top: 2em;
+    margin-bottom: 0em;
+    margin-left: 7em !important;
+    width: 50%;
+    
+}
+
+    #technology-news { 
+    padding-top: 4em;
+        position: relative;
+        height: 124em;
+        
+    }
+    
+    #technology-news h1 {
+        text-align: center;
+    }
+    #technology-news p {
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    
+    #technology-news p a{
+       
+        display: inline-block;
+        margin-bottom: 4em;
+    }
+    
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img { 
+    max-width: 60%;
+    margin-left: 5em;
+    }
+
+    #technology-news .tech-same1,
+    #technology-news .tech-same2, 
+    #technology-news .tech-same3 {
+        padding-top: 2em;
+    }
+
+    #technology-news .goright {
+        display: inline;
+        float: right;
+        position: absolute;
+        bottom: -3em;
+        right: 0em;
+        
+    }
+.about img {
+    display: inline-block;
+    margin: 0 0 2em 7em;
+    width: 300px;
+    height: 300;
+      
+    }
+    
+    .par {
+        margin-bottom: 0%;
+    }
+    
+     .hero-icons {
+    padding-left: 2%;
+padding-right: 0;
+ margin-top: 1em;
+ width: 70%;
+         margin-left: 12%;
+
+    
+}
+        .hero-icons img {
+            padding: 0 1em;
+            margin-left: 4em;
+            margin-bottom: 1em;
+        }    
+     .desktop {
+         margin-top: 1.5em;
+     }
+     
+     .psp {
+         margin-top: -3em;
+         position: absolute;
+         bottom: 1em;
+         left: 10.5em;  
+     }
+     
+     .printer {
+         margin-top: -5.2em;
+     }
+     
+     .hero-text {
+    
+    height: 300px;
+    
+    padding: 0.5em 0 0 0;
+    margin: 0 auto;
+    border-radius: 30px;  
+}
+
+     .hero {
+         height: 530px;
+     }
+    
+    
+}
+    
+ @media only screen and (max-width: 687px) {
+      /*  .hero-icons {
+  
+   padding-top: 0em;
+    padding-left: 7em;
+            width: 68%;
+    
+}
+     
+    
+     
+     .desktop {
+         margin-top: 1.5em;
+     }
+     
+     .psp {
+         margin-top: -3em;
+         position: absolute;
+         bottom: 1em;
+         left: 13.5em;
+         
+     }
+     
+     .printer {
+         margin-top: -3.9em;
+     }
+     
+     .hero-text {
+    
+    height: 300px;
+    
+    padding: 0.5em 0 0 0;
+    margin: 0 auto;
+    border-radius: 30px;  
+}
+
+     .hero {
+         height: 530px;
+     }*/
+
+#h1 {
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 160%;
+    margin-bottom: 15px;
+    padding: 0;
+    color: #edeff0;
+}
+     
+           
+
+
+.square1 {
+    margin-top: 2em;
+    margin-bottom: 0em;
+    margin-left: 5em !important;
+    width: 50%;
+}  
+               
+    
+}
+
+/* Small phone: from 0 to 660px */
+    @media only screen and (max-width: 660px) {
+        .header-nav-list li {
+            display: none;
+        }
+        
+        
+        .smalldivs {
+            display: block;
+        }
+    
+        
+
+
+        
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3e474f;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e474f;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown2 {
+    position: absolute;
+    display: inline-block;
+    right: 5em;
+   
+}
+        .dropdown {
+            position: absolute;
+    display: inline-block;
+    right: 2em;
+        }
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+        
+      .header-nav-logo {
+    float: left;
+    position: relative;
+    width: 30px;
+    height: 100%;
+   
+}
+
+        .glyphicon-menu-hamburger,
+        .glyphicon-earphone {
+            margin-top: 1em;
+        }
+
+.header-nav-logo-link {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.header-nav-logo-icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    display: block;  
+    
+}
+
+       
+.logo-icon {
+    height: 32px;
+    overflow: visible;
+    transform-origin: center center;
+    backface-visibility: visible;
+    text-align: center;
+}
+
+nav .badge-ul {
+    padding-top: 7px;
+    margin-right: 3px;
+    
+}
+
+nav .badge-ul li {
+    list-style-type: none;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 0.8;
+    letter-spacing: 1.2;
+}
+
+.red {
+    color: #bb4665;
+}
+.white {
+    color: #edeff0;
+}
+
+.ul {
+    height: 40px;
+       margin-top: 3px;
+    padding-right: 10px;
+    border-right: none;
+    float: right;
+    position: absolute;
+    top: 5px; right: -17px
+}
+
+.neachal h4 {
+     float: right;
+    position: absolute;
+    top: 65px; right: -105px;
+    color: #edeff0;
+    font-size: 12px;
+    letter-spacing: 1.2;
+}
+
+        .neachal2 h4 {
+     float: right;
+    position: absolute;
+    top: 65px; right: -105px;
+    color: #edeff0;
+    font-size: 12px;
+    letter-spacing: 1.2;
+}
+.fa-laptop {
+    float: left;
+    margin-top: 17px;
+    margin-left: 25px;
+    color: #edeff0;
+}
+   
+                .hero-icons {
+  
+  padding-left: 0;
+                    margin-left: 11%;
+                    margin-top: -1%;
+                    width: 80%;
+
+    
+}
+        .hero-icons img {
+            padding: 0 1em;
+        }    
+     .desktop {
+         margin-top: 1.5em;
+     }
+     
+     .psp {
+         margin-top: -3em;
+         position: absolute;
+         bottom: 1em;
+         left: 9.5em;  
+     }
+     
+     .printer {
+         margin-top: -4.9em;
+     }
+     
+     .hero-text {
+    
+    height: 300px;
+    
+    padding: 0.5em 0 0 0;
+    margin: 0 auto;
+    border-radius: 30px;  
+}
+
+     .hero {
+         height: 530px;
+     }
+
+#h1 {
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 160%;
+    margin-bottom: 15px;
+    padding: 0;
+    color: #edeff0;
+}
+         
+     
+        #integridy img{
+            margin-left: 2.2em;
+        }
+        
+}
+      
+    
+    
+    
+    
+           @media only screen and (max-width: 573px) {
+    
+ 
+    .hero-icons {
+  
+  padding-left: 0%;
+padding-right: 0;
+ margin: 0 auto;
+ width: 95%;
+    
+}
+        .hero-icons img {
+            padding: 0 1em;
+            margin-left: 4em;
+        }    
+     .desktop {
+         margin-top: 1.5em;
+     }
+     
+     .psp {
+         margin-top: -3em;
+         position: absolute;
+         bottom: 1em;
+         left: 9.5em;  
+     }
+     
+     .printer {
+         margin-top: -4.9em;
+     }
+     
+     .hero-text {
+    
+    height: 300px;
+    
+    padding: 0.5em 0 0 0;
+    margin: 0 auto;
+    border-radius: 30px;  
+}
+
+     .hero {
+         height: 530px;
+     }
+
+#h1 {
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 160%;
+    margin-bottom: 15px;
+    padding: 0;
+    color: #edeff0;
+}
+  
+      
+
+.square1 {
+    margin-top: 2em;
+    margin-bottom: 0em;
+    margin-left: 9em;
+    width: 50%;
+}  
+               
+     #technology-news { 
+    padding-top: 4em;
+        position: relative;
+        height: 122em;
+        
+    }
+    
+    #technology-news h1 {
+        text-align: center;
+        font-size: 2.4em
+    }
+               
+    #technology-news h3 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+    #technology-news p {
+        text-align: center;
+        margin-bottom: 1em;
+        font-size: 0.9em;
+    }
+    
+    #technology-news p a{
+       
+        display: inline-block;
+        margin-bottom: 4em;
+    }
+    
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img { 
+    max-width: 70%;
+    margin-left: 5em;
+    }
+
+   
+
+    
+    }
+    
+@media only screen and (max-width: 480px) {
+     .hero-text {
+    
+    height: 235px;
+    
+    padding: 0.5em 0 0 0;
+    margin: 0 auto;
+    border-radius: 30px;  
+}
+
+     .hero {
+         height: 560px;
+     }
+
+#h1 {
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 160%;
+    margin-bottom: 15px;
+    padding: 0;
+    color: #edeff0;
+}
+    
+    
+    #h3 {
+        font-size: 1.2em;
+    }
+    .btn-ghost:link, .btn-ghost:visited {
+     padding: 4px 8px;   
+    }
+    
+         .hero-icons {
+  
+  padding-left: 0%;
+padding-right: 0;
+ margin: 0 auto;
+ width: 95%;
+    
+}
+        .hero-icons img {
+            padding: 0 1em;
+            margin-left: 2.5em;
+        }  
+    
+     .desktop {
+         margin-top: 1.5em;
+     }
+     
+     .psp {
+         margin-top: -3em;
+         position: absolute;
+         bottom: 1em;
+         left: 8.5em;  
+     }
+    
+   
+     
+     .printer {
+         margin-top: -5em;
+     }
+     
+     .hero-text {
+    
+    height: 230px;
+    
+    padding: 1em 0 0 0;
+    margin: 0 auto;
+    border-radius: 30px;  
+}
+     
+    .notebook{
+       margin-top: 0.5em;
+         
+    }
+    
+    .tablet {
+        margin-left: 0em;
+    }
+    
+    .hero {
+        height: 485px;
+    }
+     
+     
+     }
+                  
+ 
+
+.square1 {
+    margin-top: 2em;
+    margin-bottom: 0em;
+    margin-left: 4em !important;
+    width: 70%;
+} 
+    
+    .inter {
+          padding: 4em;      
+
+    }
+    #integridy img {
+        margin-left: 0em;
+        width: 100%;
+    }
+    #integridy h3 {
+        font-size: 19px;
+    }
+    #integridy p { 
+        font-size: 15px;
+        
+    }
+    
+    #seminars {
+        padding-top: 2em;
+        padding-bottom: 1em;
+    }
+    
+      #technology-news { 
+    padding-top: 3em;
+        position: relative;
+        height: 113em;
+        
+    }
+    
+    #technology-news h1 {
+        text-align: center;
+        font-size: 2.2em
+    }
+               
+    #technology-news h3 {
+        text-align: center;
+        font-size: 1.2em;
+    }
+    #technology-news p {
+        text-align: center;
+        margin-bottom: 1em;
+        font-size: 0.9em;
+        line-height: 1.7;
+    }
+    
+    #technology-news p a{
+       
+        display: inline-block;
+        margin-bottom: 4em;
+    }
+    
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img { 
+    max-width: 70%;
+    margin-left: 3.3em;
+    }
+    
+    .about img {
+    display: inline-block;
+    margin: 0 0 2em 3em;
+    width: 300px;
+    height: 300px;
+      
+    }
+    .imgser {
+    height: 15em;
+    }
+    }
+    @media only screen and (max-width: 390px) {
+  .hero-icons {
+  
+  padding-left: 0%;
+padding-right: 0;
+ margin: 0 auto;
+ width: 75%;
+      padding-left: 1em;
+    
+}
+        .hero-icons img {
+            padding: 0 1em;
+            margin-left: 1.5em;
+            margin-bottom: 2em;
+            
+        }  
+    
+     .desktop {
+         margin-top: 0em;
+     }
+     
+     .psp {
+         margin-top: -3em;
+         position: absolute;
+         bottom: 1em;
+         left: 8.5em;  
+     }
+    
+        .hero{
+            height: 550px;
+        }
+     
+     .printer {
+         margin-top: 0em;
+         padding-left: 5em;
+     }
+     
+     .hero-text {
+    
+    height: 230px;
+    
+    padding: 1em 0 0 0;
+    margin: 0 auto;
+    border-radius: 30px;  
+}
+        
+  
+               
+
+.square1 {
+    margin-top: 2em;
+    margin-bottom: 0em;
+    margin-left: 4em !important;
+    width: 70%;
+}  
+        
+        .about img {
+            margin: 0 0 2em 
+        }
+        
+}
+    @media only screen and (max-width: 345px) {
+    
+   
+    .hero-icons {
+  
+  padding-left: 0%;
+padding-right: 0;
+ margin: 0 auto;
+ width: 90%;
+}
+        .hero-icons img {
+            padding: 0 1em;
+            margin-left: 1.5em;
+            margin-bottom: 2em;
+            
+        }  
+    
+     .desktop {
+         
+     }
+     
+     .psp {
+         margin-top: -3em;
+         position: absolute;
+         bottom: 1em;
+         left: 7.5em;  
+     }
+    
+        .hero{
+            height: 550px;
+        }
+     
+     .printer {
+         margin-top: 0em;
+         padding-left: 5em;
+     }
+     
+     .hero-text {
+    
+    height: 230px;
+    
+    padding: 1em 0 0 0;
+    margin: 0 auto;
+    border-radius: 30px;  
+}
+            
+     
+   
+               
+             
+     
+        
+
+
+
+.square1 {
+    margin-top: 2em !important;
+    margin-bottom: 0em !important;
+    margin-left: 2em !important;
+    width: 80% !important;
+} 
+   .inter {
+          padding: 4em;      
+
+    }
+    #integridy img {
+        margin-left: 0em;
+        width: 100%;
+    }
+    #integridy h3 {
+        font-size: 16px;
+        line-height: 1.3
+    }
+    #integridy p { 
+        font-size: 13px;
+    }     
+        
+      #technology-news { 
+    padding-top: 3em;
+        position: relative;
+        height: 125em;
+          line-height: 1.4em
+        
+    }
+    
+    #technology-news h1 {
+        text-align: center;
+        font-size: 2.2em
+    }
+               
+    #technology-news h3 {
+        text-align: center;
+        font-size: 1.2em;
+    }
+    #technology-news p {
+        text-align: center;
+        margin-bottom: 1em;
+        font-size: 0.9em;
+    }
+    
+    #technology-news p a{
+       
+        display: inline-block;
+        margin-bottom: 4em;
+    }
+    
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img { 
+    max-width: 90%;
+    margin-left: 0.5em;
+    }
+    
+        
+      .about img {
+    display: inline-block;
+    margin: 0 0 2em -1em ;
+    width: 300px;
+    height: 300px;
+      
+    }
+        
+         .imgser {
+    height: 12em;
+    }
+        #serviceswrap{
+            min-height: 380px;
+        }
+        
+        
+        .col-lg-8 a[href]{margin-top: 1em;}
+        
+        .col-lg-8 a[href]:last-child {padding: 10px 24px;}
+        
+        #serviceswrap h2 { 
+            font-size: 40px;
+        }
+       #services1 h1 {
+            font-size: 2.3em;
+           text-align: center;
+        }
+        
+       #services1 h3 {
+            font-size: 1.2em;
+           text-align: center;
+        }
+        #services1 p {
+            font-size: 1.2em;
+            line-height: 1.4;
+            letter-spacing: 0.0em;
+            margin-left: 1em;
+            margin-top: 1em;
+            text-align: center;
+        }
+    }
+
+@media only screen 
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    #header {
+        background: transparent;
+        box-shadow: none;
+    }   
+   
+    
+    .header-nav-logo {
+        display: none;
+    } 
+    .hero {
+        padding: 60px 0;
+        margin-top: -70px;
+        height: 570px;
+        
+    }
+}
+}
