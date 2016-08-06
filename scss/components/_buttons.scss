@@ -1,3 +1,39 @@
 .btn {
     border-radius: 0;
 }
+
+btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    background: #fff;
+   -webkit-transition: opacity 0.5s, border 0.5s ;
+   transition: opacity 0.5s, border 0.5s, ;
+    font-weight: bold;
+}
+
+
+
+
+.btn-ghost:link,
+.btn-ghost:visited {
+   color: #bb4665;
+    margin-right: 15px;
+    background: #fff;
+    opacity: 0.88;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+
+
+
+.btn-ghost:hover,
+.btn-ghost:active {
+   border: 1px solid #edeff0;
+   opacity: 1;
+  box-sizing: padding-box; 
+}

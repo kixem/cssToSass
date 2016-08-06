@@ -1,17 +1,15 @@
 
 
-.neachal2 h4 {
-     float: right;
-    position: absolute;
-    top: 21px; right: -120px;
-    color: #edeff0;
-    font-size: 16px;
-    letter-spacing: 1.2;
-} 
 
 .smalldivs {
-            display: none;
-        }
+    display: none;
+    @media only screen and (max-width: 1199px) {
+        display: none;
+    }
+    @media only screen and (max-width: 1023px) {
+        display: none;
+    }
+}
 
 #header {
     z-index: 100;
@@ -23,8 +21,11 @@
     left: 0;
     display: block;
     height: 70px;
-    
-   box-shadow: 0 2px 4px rgba(0,0,0,.4);
+    box-shadow: 0 2px 4px rgba(0,0,0,.4);
+    @media only screen and (max-width: 991px) {
+        height: 95px;
+        border-bottom: 2px solid #bb4665;
+    }
 } 
 
 /*NAV*/
@@ -33,6 +34,20 @@
     position: relative;
     max-width: 1030px;
     margin: 0 auto;
+    @media only screen and (max-width: 1023px) {
+        position: relative;
+        max-width: 1030px;
+        margin: 0 auto;
+        &:before,
+        &:after {
+            content: " ";
+            display: table;
+        }
+        &:after {
+            clear: both;
+        }
+    }
+    @media only screen and (max-width: 991px) {}
 }
 
 .container:before,
@@ -48,17 +63,38 @@
 .header-nav {
     padding-top: 0;
     padding-bottom: 0;
- 
-    border-bottom: 2px solid ##bb4665;
+    border-bottom: 2px solid #bb4665;
+    @media only screen and (max-width: 1023px) {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 100%;
+        border-bottom: 2px solid #bb4665;
+    }
+    @media only screen and (max-width: 991px) {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 100%;
+        border-bottom: 2px solid ##bb4665;
+    }
 }
 
 .header-nav-logo {
     float: left;
     position: relative;
     width: 30px;
-  
     border: none;
-   
+    @media only screen and (max-width: 1023px) {
+        float: left;
+        position: relative;
+        width: 30px;
+        height: 100%;
+    }
+    @media only screen and (max-width: 991px) {
+        float: left;
+        position: relative;
+        width: 30px;
+        height: 100%;
+    }
 }
 
  .logo-icon:hover, 
@@ -71,7 +107,18 @@
     display: block;
     position: relative;
     width: 100%;
-    
+    @media only screen and (max-width: 1023px) {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    @media only screen and (max-width: 991px) {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .header-nav-logo-icon {
@@ -79,7 +126,18 @@
     top: 50%;
     margin-top: -12px;
     display: block;  
-    
+    @media only screen and (max-width: 1023px) {
+        position: absolute;
+        top: 50%;
+        margin-top: -12px;
+        display: block;
+    }
+    @media only screen and (max-width: 991px) {
+        position: absolute;
+        top: 50%;
+        margin-top: -12px;
+        display: block;  
+    }
 }
 
 .logo-icon {
@@ -88,13 +146,33 @@
     transform-origin: center center;
     backface-visibility: visible;
     text-align: center;
-    
+    @media only screen and (max-width: 1023px) {
+        height: 32px;
+        overflow: visible;
+        transform-origin: center center;
+        backface-visibility: visible;
+        text-align: center;
+    }
+    @media only screen and (max-width: 991px) {
+        height: 32px;
+        overflow: visible;
+        transform-origin: center center;
+        backface-visibility: visible;
+        text-align: center;
+    }
 }
 
 nav .badge-ul {
     padding-top: 7px;
     margin-right: 3px;
-    
+    @media only screen and (max-width: 1023px) {
+        padding-top: 7px;
+        margin-right: 3px;
+    }
+    @media only screen and (max-width: 991px) {
+        padding-top: 7px;
+        margin-right: 3px;
+    }
 }
 
 nav .badge-ul li {
@@ -104,13 +182,37 @@ nav .badge-ul li {
     font-size: 14px;
     line-height: 0.8;
     letter-spacing: 1.2;
+    @media only screen and (max-width: 1023px) {
+         list-style-type: none;
+        padding-bottom: 5px;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 0.8;
+        letter-spacing: 1.2;
+    }
+    @media only screen and (max-width: 991px) {
+        list-style-type: none;
+        padding-bottom: 5px;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 0.8;
+        letter-spacing: 1.2;
+    }
 }
 
 .red {
     color: #bb4665;
+    @media only screen and (max-width: 1023px) {
+        color: #bb4665;
+    }
 }
+
 .white {
     color: #edeff0;
+    @media only screen and (max-width: 1023px) {
+        color: #edeff0;
+    }
+    @media only screen and (max-width: 991px) {}
 }
 
 .ul {
@@ -121,6 +223,24 @@ nav .badge-ul li {
     float: right;
     position: absolute;
     top: 6px; right: -10px
+    @media only screen and (max-width: 1023px) {
+        height: 40px;
+        margin-top: 3px;
+        padding-right: 10px;
+        border-right: 2px solid rgba(237, 239, 240, 0.55);
+        float: right;
+        position: absolute;
+        top: 6px; right: -7px
+        }
+    @media only screen and (max-width: 991px) {
+        height: 40px;
+        margin-top: 3px;
+        padding-right: 10px;
+        border-right: 2px solid rgba(237, 239, 240, 0.55);
+        float: right;
+        position: absolute;
+        top: 5px; right: -7px
+        }
 }
 
 .neachal h4 {
@@ -130,14 +250,50 @@ nav .badge-ul li {
     color: #edeff0;
     font-size: 16px;
     letter-spacing: 1.2;
+    @media only screen and (max-width: 1023px) {
+        float: right;
+        position: absolute;
+        top: 21px; right: -120px;
+        color: #edeff0;
+        font-size: 15px;
+        letter-spacing: 1.2;
+    }
+    @media only screen and (max-width: 991px) {
+        float: right;
+        position: absolute;
+        top: 21px; right: -105px;
+        color: #edeff0;
+        font-size: 12px;
+        letter-spacing: 1.2;
+    }
 }
 
-.fa-laptop {
-    float: left;
-    margin-top: 17px;
-    margin-left: 5px;
+.neachal2 h4 {
+     float: right;
+    position: absolute;
+    top: 21px; right: -120px;
     color: #edeff0;
-}
+    font-size: 16px;
+    letter-spacing: 1.2;
+    @media only screen and (max-width: 1023px) {
+        float: right;
+        position: absolute;
+        top: 21px; right: -120px;
+        color: #edeff0;
+        font-size: 15px;
+        letter-spacing: 1.2;
+    }
+    @media only screen and (max-width: 991px) {
+        float: right;
+        position: absolute;
+        top: 21px; right: -105px;
+        color: #edeff0;
+        font-size: 12px;
+        letter-spacing: 1.2;
+    }
+} 
+
+
 
 /*UL*/
 
@@ -146,6 +302,16 @@ nav .badge-ul li {
     line-height: 55px;
     margin-left: 250px;
     margin-right: 0px;
+    @media only screen and (max-width: 1023px) {
+         line-height: 55px;
+        margin-left: 240px;
+        margin-right: 0px;
+    }
+    @media only screen and (max-width: 991px) {
+        line-height: 55px;
+        margin-left: 215px;
+        margin-right: 0px;
+    }
 }
 
 .header-nav-link {
@@ -155,7 +321,24 @@ nav .badge-ul li {
     margin-right: 25px;
     font-weight: 700;
     font-size: 16px;
-    
+    @media only screen and (max-width: 1023px) {
+        display: block;
+        color: #b2bbbd;
+        float: left;
+        margin-right: 25px;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    @media only screen and (max-width: 991px) {
+        display: block;
+        color: #b2bbbd;
+        float: left;
+        margin-right: 25px;
+        font-weight: 700;
+        font-size: 14px; 
+        display: inline-block;
+        margin-top: 2px;
+    }
 }
 
 
@@ -172,17 +355,80 @@ nav .badge-ul li {
     padding-bottom: 0px;
     margin-top: 16px;
     letter-spacing: 0.8 ;
-    
+    @media only screen and (max-width: 1023px) {
+        padding-top: 0px;
+        padding-left: 0px;
+        font-size: 12px;
+        font-weight: 700;
+        color: #777777;
+        list-style: none;
+        padding-bottom: 0px;
+        margin-top: 16px;
+        letter-spacing: 0.8 ;
+    }
+    @media only screen and (max-width: 991px) {
+        width: 100%;
+        background: #3e474f;
+        font-size: 12px;
+        font-weight: 700;
+        color: #777777;
+        list-style: none;
+        margin-top: 1%;
+        background: transparent;
+        letter-spacing: 0.8 ;
+        float: left;  
+        margin-left: -3%;
+        border-top: 1px solid #bb4665;
+        padding-top: 5px;
+        padding-bottom: 2px;
+    }
    
 }
 .call li {
     height: 27px;
     text-align: left;
     margin-bottom: 0;
-   margin-top: -10px;
-padding-left:  53px;
+    margin-top: -10px;
+    padding-left:  53px;
     margin-left: 780px;
     letter-spacing: 1.4;
+    @media only screen and (max-width: 1199px) {
+        height: 27px;
+        text-align: left;
+        margin-bottom: 0;
+        margin-top: -10px;
+        padding-left:  53px;
+        margin-left: 720px;
+        letter-spacing: 1.4;
+    }
+    @media only screen and (max-width: 1023px) {
+        height: 27px;
+        text-align: left;
+        margin-bottom: 0;
+        margin-top: -10px;
+        padding-left:  53px;
+        margin-left: 720px;
+        letter-spacing: 1.4;
+        a {
+            &:link,
+            &:visited {
+                cursor: pointer;
+                text-decoration: none; 
+                color: #b2bbbd;
+               -webkit-transition: color 0.5s, border-bottom 0.5s;
+                transition: color 0.5s, border-bottom 0.2s;
+            }
+            &:hover,
+            &:avtive {
+                 color: #edeff0;
+                 border-bottom: 1px solid #bb4665;
+            }
+        }
+    }
+    @media only screen and (max-width: 991px) {
+        margin-left: 30px;
+        display: inline-block;
+    }
 }
 
 

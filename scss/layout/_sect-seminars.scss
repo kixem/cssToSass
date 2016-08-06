@@ -1,0 +1,52 @@
+#seminars {
+    background: #bb4665;
+    color: #edeff0;
+    font-family: sans-serif;
+    padding-top: 4em;
+    padding-bottom: 3em;
+    box-shadow: 0 1px 4px rgba(187, 70, 101, 0.72);
+    @media only screen and (max-width: 1199px) {
+        padding-top: 3em;
+        padding-bottom: 2em;
+    }
+}
+
+#seminars .centered {
+    text-align: right;
+    @media only screen and (max-width: 1199px) {
+        text-align:left; 
+        padding: 1em;
+    }
+}
+
+#seminars .mt {
+    padding: 3em;
+}
+
+.first{
+    padding-top: 1em;
+}
+
+.second{
+    padding-top: 1em;
+}
+
+.third{
+    padding-top: 3em;
+    @media only screen and (max-width: 1199px) {
+        padding-top: 1em;
+    }
+}
+
+
+.goleft {
+    text-align: left;
+    @media only screen and (max-width: 1199px) {
+        margin-bottom: 2em;
+    }
+}
+
+.goleft a{
+    color: #b2bbbd;
+    border-bottom: none;
+}

@@ -1,12 +1,20 @@
+/*SECTION HEADER*/
 .fa-laptop {
     float: left;
     margin-top: 17px;
     margin-left: 5px;
     color: #edeff0;
+    @media only screen and (max-width: 991px) {
+        float: left;
+        margin-top: 17px;
+        margin-left: 5px;
+        color: #edeff0;
+    }
 }
 
 .call i {
     color: #bb4665;
+    
 }
 .fa-comment-o {
     margin-left: -3px;
@@ -16,3 +24,111 @@
     margin-left: -3px;
 }
    
+
+.hero-icons img:last-child {
+    padding-right: 0;
+}
+
+.hero-icons img {
+    float: left;
+    padding-right: 4em;
+    @media only screen and (max-width: 1199px) {
+        padding-right: 3em;
+    }
+    @media only screen and (max-width: 1023px) {
+        padding-right: 4em;
+    }
+    @media only screen and (max-width: 991px) {
+        padding: 0 1em;
+        margin-left: 2.5em;
+        margin-bottom: 1em;
+    }    
+}
+
+
+
+
+
+
+.notebook {
+    padding-top: 0.5em;
+    
+}
+
+
+/*SECTION HERO*/
+
+.notebook:hover,
+.ipod:hover,
+.monitor:hover,
+.phone:hover,
+.tablet:hover,
+.desktop:hover,
+.printer:hover,
+.tv:hover,
+.psp:hover {
+    -webkit-transform: rotate(2turn);
+    -webkit-transform-origin: 0% 50%;
+    -webkit-transition: 1s ease-in;
+}
+
+.desktop {
+    margin-top: -0.5em;
+}
+
+.psp {
+    margin-top: 1em;
+}
+
+.tv {
+    margin-top: -0.5em;
+}
+
+.camera {
+    /*
+     -webkit-mask: url(/img/icons/svg/camera-4.svg) no-repeat 50% 50%;
+  mask: url(/img/icons/svg/camera-4.svg) no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+   mask-size: cover; 
+    */
+    background: #bb4665;
+    width: 43px;
+  height: 30px;
+    margin-right: 4.5%;
+}
+
+@media only screen and (max-width: 991px) {
+    .phone,
+    .ipod,
+    .tv {
+        display: none;
+    }
+}
+
+
+
+
+#integridy img {
+    width: 80%;
+    margin-top: 4em;
+    opacity: 0.8;
+    -webkit-filter: hue-rotate(-10deg); /* Chrome, Safari, Opera */
+    filter: hue-rotate(-10deg);
+    @media only screen and (max-width: 991px) {
+        margin-left: 4em;
+        margin-bottom: 3em;
+        margin-top: 0em;
+    }
+}
+
+.about img {
+    height: 40%;
+    margin: 45% 10% 0% 20%;
+    opacity: 0.8;
+    -webkit-filter: hue-rotate(80deg); /* Chrome, Safari, Opera */
+    filter: hue-rotate(90deg);
+    @media only screen and (max-width: 991px) {
+        margin-top: 100%;
+        margin-left: 5%
+    }
+}

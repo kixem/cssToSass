@@ -1,0 +1,97 @@
+#technology-news {
+    background-color: #384047;
+    font-family: sans-serif;
+    color:  #fff;
+    height: 70em;
+    padding-top: 7em;  
+    box-shadow: 0 1px 4px rgba(0,0,0,.4);
+    @media only screen and (max-width: 991px) {
+        padding-top: 4em;
+        position: relative;
+        height: 70em;
+        .tech-same1,
+        .tech-same2,
+        .tech-same3 {
+             padding-top: 2em;
+        }
+    }
+}
+
+#technology-news p {
+    @media only screen and (max-width: 991px) {
+        text-align: center;
+        margin-bottom: 1em;
+        a {
+            display: inline-block;
+            margin-bottom: 4em;
+        }
+    }
+}
+#technology-news h1 {
+    color: #bb4665;
+    @media only screen and (max-width: 991px) {
+        text-align: center;
+    }
+}
+#technology-news .container {
+    width: 80%;
+    max-width: 1250px;
+    
+}
+.technology-news .col-lg-4 {
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+#technology-news .row {
+   padding-top: 2em;
+    
+}
+
+#technology-news .tech-same1 {
+   padding-top: 8em;
+}
+
+#technology-news .tech-same2 {
+   padding-top: 10em
+}
+
+#technology-news .tech-same3 {
+   padding-top: 4em;
+}
+
+.goright {
+    text-align: right;
+    @media only screen and (max-width: 991px) {
+        display: inline;
+        float: right;
+        position: absolute;
+        bottom: -3em;
+        right: 0em;
+    }
+}
+
+#technology-news a {
+    color: #bb4665;
+    word-wrap: break-word;
+    -webkit-transition: color .1s ease-in, background .1s ease-in;
+    -moz-transition: color .1s ease-in, background .1s ease-in;
+    -ms-transition: color .1s ease-in, background .1s ease-in;
+    -o-transition: color .1s ease-in, background .1s ease-in;
+    transition: color .1s ease-in, background .1s ease-in;
+    border-bottom: none;
+}
+#technology-news a:hover,
+#technology-news a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+#technology-news a:before,
+#technology-news a:after {
+    -webkit-transition: color .1s ease-in, background .1s ease-in;
+    -moz-transition: color .1s ease-in, background .1s ease-in;
+    -ms-transition: color .1s ease-in, background .1s ease-in;
+    -o-transition: color .1s ease-in, background .1s ease-in;
+    transition: color .1s ease-in, background .1s ease-in;
+}
