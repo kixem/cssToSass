@@ -25,3 +25,41 @@
     text-align: justify;
 }
 
+.abouticon {
+    margin-top: 15%;
+    height: 55%;
+    position: relative;
+    @media only screen and (max-width: 991px) {
+        height: 75%;
+    }
+    @media only screen and (max-width: 767px) {
+        margin-top: 0;
+        height: 35%;
+    }
+    &::after {
+        content: "";
+        display: block;
+        height: 350px;
+        width: 350px;
+        background: url('img/home-ill-platform.png') no-repeat;
+        background-size: 100%;
+        position: absolute;
+        top: 0%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        opacity: 0.8;
+        -webkit-filter: hue-rotate(80deg); 
+        filter: hue-rotate(90deg);
+        @media only screen and (max-width: 767px) {
+            width: 300px;
+            height: 300px;
+        }
+        @media only screen and (max-width: 345px) {
+            width: 250px;
+            height: 250px;
+        }
+    } 
+}
+
